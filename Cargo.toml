@@ -7,6 +7,8 @@ edition = "2021"
 rocket = "0.4.10"
 chrono = "0.4.19"
 serde = { version = "1.0.136", features = ["derive"] }
+memory-db = "0.29.0"
+keccak-hasher = "0.15.3"
 
 [dependencies.rocket_contrib]
 version = "0.4.10"
